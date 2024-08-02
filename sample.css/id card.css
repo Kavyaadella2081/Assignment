@@ -1,0 +1,73 @@
+.parent{
+    height:400px;
+    width: 700px;
+    background-image:url("https://i.pinimg.com/564x/65/d4/b5/65d4b51d43d6d1c37c6c974a17bc67c2.jpg");
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover;
+    display:grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns:1fr 1fr;
+margin-left: 300px;
+margin-top: 100px;
+border: 2px solid black;
+}
+
+img{
+    height: 250px;
+    width: 200px;
+    
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+.four{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.college{
+  
+    height: 40px;
+    width: 60px;
+
+
+}
+h1{
+    
+    border-bottom: 1px solid black;
+    margin-right: 80px;
+}
+h3{
+    margin-top: 43px;
+}
+.one{
+    grid-row: 1;
+    grid-column:2;
+    margin-left: 300px;
+   
+    align-content:center ;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.three {
+    grid-row: 2;
+    grid-column: 2;
+ 
+}
+.four{
+    grid-row: 2;
+    margin-bottom: 200px;
+
+}
+.five{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 70px;
+    color: black;
+
+}
+body{
+    align-content: center;
+    justify-content: center;
+}

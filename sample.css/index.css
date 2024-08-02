@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    border: 3px solid blueviolet;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    align-content: center;
+}
+.parent{
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+.one{
+    background-color: pink;
+}
+.two{
+    background-color:aqua;
+}
+.three{
+    background-color:purple;
+}
+.four{
+    background-color:red;
+}
+.five{
+    background-color:blanchedalmond;
+}

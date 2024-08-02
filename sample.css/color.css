@@ -1,0 +1,43 @@
+*{
+    margin: 50px;
+}
+div{
+    height: 100px;
+    width : 300px;
+    text-align: center;
+    align-content: center;
+    background-color: aqua;
+    animation: sample 5s 10;
+}
+div:hover{
+    transform:skewX(-180deg);
+}
+h1{
+    color:brown;
+    font-size: medium;
+}
+@keyframes sample{
+    0% {
+        background-color:coral
+    }
+    20% {
+        background-color: chartreuse;
+        transform: translateX(200px);
+    }
+    40% {
+        background-color: darkblue;
+        transform: translateX(200px);
+    }
+    60% {
+        background-color: darkolivegreen;
+        transform :translateX(200px);
+    }
+    80% {
+        background-color: darkseagreen;
+        transform: translateX(200px);
+    }
+    90% {
+        background-color: fuchsia;
+        transform: translateX(200px);
+    }
+}
