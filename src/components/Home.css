@@ -1,0 +1,11 @@
+/* src/components/Home.css */
+.home {
+    text-align: center; /* Center text and image */
+}
+
+.home-image {
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-top: 20px; /* Space above the image */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
